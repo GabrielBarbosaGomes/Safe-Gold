@@ -7,7 +7,7 @@ export function MenuLoggedOut() {
             </div>
             <ul className="flex justify-center gap-1 w-1/4 text-black">
                 <li className="rounded-l-lg bg-grayMain py-2 px-8"><a>Entrar</a></li>
-                <li className="rounded-r-lg bg-blueMain py-2 px-8"><a>Cadastrar-me</a></li>
+                <li className="rounded-r-lg bg-blueMain py-2 px-8"><a>Cadastrar-me teste</a></li>
             </ul>
         </nav>
     )
