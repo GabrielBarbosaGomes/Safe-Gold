@@ -10,13 +10,22 @@ export default {
       },
 
       colors: {
-        'blueMain': '#1190CB',
+        'blueLogo': '#1190CB',
+        'blueMain': '#003366',
         'grayMain': '#898383',
         'grayNav': '#E5E5E5',
+        'teste': '#003366',
+        'bgScreen': '#e8e8e8',
+        'white': '#ffffff',
+        'green': '#0097B2',
       },
 
       fontFamily: {
         'fontLogo': 'Heebo, sans-serif',
+      },
+
+      height: {
+        'fullHeight': '100%',
       },
     },
 

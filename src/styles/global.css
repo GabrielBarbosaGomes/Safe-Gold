@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body{
-    @apply bg-zinc-900 text-zinc-100 bg-no-repeat bg-bottom-4 bg-[url('../share/imagens/cityBg.jpg')];
+    @apply bg-bgScreen bg-no-repeat bg-bottom-4;
 }

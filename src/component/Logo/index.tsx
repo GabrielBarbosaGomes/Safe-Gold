@@ -1,9 +1,9 @@
 interface FontSize {
-    fontSize: string;
+    fontSize?: JSX.Element | JSX.Element[] | string;
   }
   
   interface FontLogo {
-    fontLogo: string;
+    fontLogo?: JSX.Element | JSX.Element[] | string;
   }
   
   interface DesignLogo {
@@ -22,10 +22,10 @@ interface FontSize {
 
 
 
-export function Logo({ fontSize, fontLogo }: DesignLogo) {
-    console.log('teste', fontLogo)
+export function Logo({ fontSize, fontLogo }: any) {
+    console.log(`text-${fontSize} font-${fontLogo} text-blueMain w-1/4 flex flex-col items-center`)
     return (
-        <div className={`text-${ItensLogo.fontSize} font-${ItensLogo.fontLogo} text-blueMain w-1/4 flex flex-col items-center`}>
+        <div className={`text-${fontSize} font-${fontLogo} text-blueLogo w-1/4 flex flex-col items-center cursor-pointer`}>
             <strong className="text-black">$</strong>
             <strong className="font-fontLogo subpixel-antialiased">SafeGold</strong>
         </div>
